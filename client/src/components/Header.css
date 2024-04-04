@@ -1,0 +1,55 @@
+/* Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .link-style {
+    text-decoration: none;
+    color: inherit; 
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background-color: #45a049; /* Change background color on hover */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .buttons {
+      flex-wrap: wrap;
+    }
+    
+    .button {
+      margin: 5px;
+    }
+  }
+  
